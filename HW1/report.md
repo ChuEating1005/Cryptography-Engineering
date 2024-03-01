@@ -3,7 +3,7 @@
 ## Problem 1
 1. See the attached file `111550093.py`.
     
-    ![image](result.png)
+    ![image](https://github.com/ChuEating1005/Cryptography-Engineering/blob/master/HW%201/result.png)
 2. The plaintext of encrypted message is:
     > *A COMPUTER SCIENTIST MUST OFTEN EXPERIENCE A FEELING OF NOT FAR REMOVED FROM ALARM ON ANALYZING AND EXPLORE THE FLOOD OF ADVANCED KNOWLEDGE WHICH EACH YEAR BRINGS WITH IT* 
     
