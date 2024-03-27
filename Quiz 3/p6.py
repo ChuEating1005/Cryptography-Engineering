@@ -1,0 +1,7 @@
+m1 = 'attack at dawn'.encode(encoding='ascii')
+m2 = 'defend at noon'.encode(encoding='ascii')
+c1 = bytes.fromhex('6c73d5240a948c86981bc294814d')
+c2 = bytes(i ^ j for i, j in zip(m2, bytes(i ^ j for i, j in zip(m1, c1))))
+c2_b = ''.join(format(byte, '08b') for byte in c2)
+ic2_b = int(c2_b, 2)
+print(hex(ic2_b)[2:])
